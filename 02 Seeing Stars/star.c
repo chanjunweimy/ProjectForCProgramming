@@ -1,6 +1,18 @@
 #include <stdio.h>
 
-int main() {
+/*
+ * Prints out n level of stars
+ *
+ * Example:
+ * Input: 3
+ * Output:
+ * *
+ * **
+ * ***
+ */
+
+int main() 
+{
     int i, j;
     int n;
 
@@ -8,8 +20,10 @@ int main() {
     scanf("%d", &n);
 
 
-    for (i = 0; i < n; i++) {
-        for (j = 0; j <= i; j++) {
+    for (i = 0; i < n; i++)
+    {
+        for (j = 0; j <= i; j++)
+        {
             printf("*");
         }
         printf("\n");

@@ -1,0 +1,14 @@
+#### joe made this: https://goel.io/joe
+
+#####=== OSX ===#####
+.DS_Store
+
+#####=== C ===#####
+
+# Object files
+a.out
+*.o
+
+# Executables
+*.exe
+*.out
