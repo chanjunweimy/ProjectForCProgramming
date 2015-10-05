@@ -8,7 +8,7 @@ LDFLAGS = -l
 OBJECTS = $(foreach x, $(basename $(SOURCES)), $(x).o)
 
 $(BUILDIR): $(OBJECTS)
-	$(CC) $(CFLAGS) $(LDFLAGS) $^ -o $@
+	$(CC) $(CFLAGS) $(LDFLAGS) -c $^ -o $@
 
 clean:
 	rm -r $(TARGET) $(OBJECTS)
