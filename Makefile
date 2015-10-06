@@ -4,7 +4,7 @@ CSOURCES = $(shell find . -name '*.c')
 CXXSOURCES = $(shell find . -name '*.cpp')
 BUILDIR = build
 
-CC = gcc
+CC = clang
 CXX = g++
 CFLAGS = -Wall -I
 CXXFLAGS = -Wall

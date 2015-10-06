@@ -3,3 +3,4 @@
 while read line; do
     echo $line | ./star.o
 done < star_test.txt
+gcov star.c
