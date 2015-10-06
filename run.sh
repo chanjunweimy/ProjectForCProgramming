@@ -8,10 +8,9 @@ cd 02_Seeing_Stars
 ./star_shell.sh
 
 # Run code coverage
-CFILES = find . -name '*.c'
-for f in $CFILES
+for f in $(find . -name '*.c');
 do
-    echo $f
-    gcov $f
+    echo $f;
+    gcov $f;
 done
 

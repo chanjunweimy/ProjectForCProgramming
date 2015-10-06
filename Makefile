@@ -9,7 +9,7 @@ CXX = g++
 CFLAGS = -Wall -I
 CXXFLAGS = -Wall
 LDFLAGS = -l
-COVFLAGS = -coverage
+COVFLAGS = -coverage -O0
 
 COBJECTS = $(foreach x, $(basename $(CSOURCES)), $(x).o)
 CXXOBJECTS = $(foreach x, $(basename $(CXXSOURCES)), $(x).o)
