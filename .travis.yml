@@ -2,11 +2,12 @@ language: c
 notifications:
     email: false
 
-before_install:
+before_script:
     - pip install --user codecov
 
 #script: make
-script: ./run.sh
+script: 
+    - ./run.sh
 
-after_success:
-    - codecov
+after_script:
+    - bash <(curl -s https://codecov.io/bash)
