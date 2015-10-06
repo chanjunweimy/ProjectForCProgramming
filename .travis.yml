@@ -2,4 +2,5 @@ language: c
 notifications:
     email: false
 
-script: make
+#script: make
+script: run.sh
