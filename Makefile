@@ -1,14 +1,23 @@
-SOURCES = $(shell find . -name '*.c')
+all: cxxcompile ccompile
+
+CSOURCES = $(shell find . -name '*.c')
+CXXSOURCES = $(shell find . -name '*.cpp')
 BUILDIR = build
 
 CC = gcc
-CFLAGS = -I
+CXX = g++
+CFLAGS = -Wall -I
+CXXFLAGS = -Wall
 LDFLAGS = -l
 
-OBJECTS = $(foreach x, $(basename $(SOURCES)), $(x).o)
+COBJECTS = $(foreach x, $(basename $(CSOURCES)), $(x).o)
+CXXOBJECTS = $(foreach x, $(basename $(CXXSOURCES)), $(x).o)
 
-$(BUILDIR): $(OBJECTS)
-	$(CC) $(CFLAGS) $(LDFLAGS) -c $^ -o $@
+ccompile: $(COBJECTS)
+		$(CC) $(CFLAGS) $(LDFLAGS) -c $^ -o $@
+cxxcompile: $(CXXOBJECTS)
+		$(CXX) $(CXXFLAGS) -c $(LDFLAGS) $^ -o $@
 
 clean:
-	rm -r $(TARGET) $(OBJECTS)
+		rm -rf $(BUILDDIR) $(COBJECTS)
+		rm -rf $(BUILDIR) $(CXXOBJECTS)
