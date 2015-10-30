@@ -1,6 +1,9 @@
 # Positive Sum Intervals (PSI) 
-This is a past CS1020E PE Question.
-Input, output and skeleton are taken from NUS CS1020E course.
+* This is a past CS1020E PE Question.
+* Input, output and skeleton are taken from NUS CS1020E course.
+
+### Index
+* [Decription](readme.md#description)
 
 ### Description
 * A positive sum interval (PSI) of an array is a consecutive subsequence of the array such 
