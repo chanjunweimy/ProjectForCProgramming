@@ -1,3 +1,7 @@
+/**
+ * Author: Chan Jun Wei
+ */
+
 #include <iostream>
 #include <vector>
 
