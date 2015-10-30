@@ -4,6 +4,15 @@
 
 ### Index
 * [Decription](readme.md#description)
+* [Input](readme.md#input)
+* [Output](readme.md#output)
+* [Sample Input 1](readme.md#sample-input-1)
+* [Sample Output 1](readme.md#sample-output-1)
+* [Explanation 1](readme.md#explanation-1)
+* [Sample Input 2](readme.md#sample-input-2)
+* [Sample Output 2](readme.md#sample-output-2)
+* [Solution](readme.md#solution)
+
 
 ### Description
 * A positive sum interval (PSI) of an array is a consecutive subsequence of the array such 
