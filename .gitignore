@@ -11,9 +11,11 @@ a.out
 
 # Executables
 *.exe
-*.out
 
 ####=== Code Coverage ===####
 *.gcov
 *.gcda
 *.gcno
+
+###=== Testing Code ====####
+*.test
