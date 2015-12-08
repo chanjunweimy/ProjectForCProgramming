@@ -1,0 +1,11 @@
+Enter number of voters in the division:
+Enter number of stations:
+Enter number of voters in station 1:
+Enter number of votes for Team A:
+Enter number of votes for Team B:
+Enter number of voters in station 2:
+Enter number of votes for Team A:
+Enter number of votes for Team B:
+Sample count for Team A = 52.00%
+Sample count for Team B = 48.00%
+Team A narrowly wins this election

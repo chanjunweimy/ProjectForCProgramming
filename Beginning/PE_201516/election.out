@@ -1,0 +1,11 @@
+Enter number of voters in the division:
+Enter number of stations:
+Enter number of voters in station 1:
+Enter number of votes for Team A:
+Enter number of votes for Team B:
+Enter number of voters in station 2:
+Enter number of votes for Team A:
+Enter number of votes for Team B:
+Sample count for Team A = 79.42%
+Sample count for Team B = 20.58%
+Team A wins by a landslide.
