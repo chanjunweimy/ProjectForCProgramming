@@ -64,6 +64,11 @@ Command | Operation
 `:s/x/y/g`    | Replace `x` with `y` at all occurrences in that line 
 `:%s/x/y/g`   | Replace `x` with `y` at all occurrences in the whole file 
 
+### Dark Corners 
+Command | Operation
+--- | ---
+`:w !sudo tee %` | Get sudo permission for editing the current file when you forgot to get the permission earlier
+
 #### Plugins
 * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 * [Syntastic](https://github.com/scrooloose/syntastic)
